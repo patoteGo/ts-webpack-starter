@@ -6,7 +6,7 @@ const { CleanWebpackPlugin }  = require('clean-webpack-plugin');
 const CopyPlugin              = require('copy-webpack-plugin'); 
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: './src/index.js',
     mode: 'production',
     resolve: {
         extensions: ['.ts','.js','.json']
